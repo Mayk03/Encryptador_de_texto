@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptext</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+    <header class="header">
+        <img class="logo" src="/img/logo1.png" alt="">
+        <h1 class="h1">¡ Encryptext encripta tus textos de forma Facil, Rapida y Sencilla !</h1>
+    </header>
+    <main class="pagina">
+        <section class="presentacion_de_contenido">
+            <div class="div_principal">
+                <textarea class="Texto_usuario"placeholder="Inserta tu texto aqui . . . ."required maxlength="900"></textarea>    
+                <div class="div_botones">
+                    <div>
+                        <button onclick="B_encriptar()"  class="encriptar">E n c r i p t a r</button>
+                    </div>
+                            
+                    <div>
+                        <button onclick="B_desencriptar()"  class="desencriptar">Desencriptar</button>
+                    </div>
+
+                    <div>
+                        <button onclick="B_copiar()" id="copiar" class="copiar">C o p i a r</button>
+                    </div>
+                </div>
+                <textarea class="zona_encriptacion" id="quitar_imagen" placeholder="No hay nada para encriptar que aburrido estoy.!" readonly="readonly"></textarea>
+            </div>
+        </section>
+        <div class="Presentacion__enlaces">
+            <a class="Presentacion__link" href="https://github.com/Mayk03">
+                <img src="./img/iconos/icono 1.png" width="30px" height="30px">
+                Github</a>
+            <a class="Presentacion__link" href="https://www.instagram.com/mayyccollandreess?igsh=dHc5ZHZ5eXViYXhq">
+                <img src="./img/iconos/icono 4.png" width="30px" height="30px">
+                Instagram</a>
+            <a class="Presentacion__link" href="https://www.linkedin.com/in/maycol-quinto-6bb302287">
+                <img src="./img/iconos/icono 5.png" width="30px" height="30px">
+                Linkedin</a>
+        </div>
+
+    </main>
+    
+    <script src="encriptador.js" defer></script>
+</body>
+<footer class="footer">-- 2024  &copy;  Maycol Quinto --</footer>
+
+</html>
