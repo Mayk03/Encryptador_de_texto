@@ -43,6 +43,15 @@ h1{
     display: flex;
     gap: 150px;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 15px;
+    gap: 115px;
+}
+
 .presentacion_de_contenido{
     display: flex;
     justify-content: center;
