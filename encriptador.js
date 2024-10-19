@@ -91,3 +91,7 @@ function B_copiar() {
         TextoUsuario.value = '';
             location.reload();
 }
+window.onload = function() {
+    document.querySelector('.Texto_usuario').value = '';
+    document.querySelector('.texto_encriptado').value = '';
+};
