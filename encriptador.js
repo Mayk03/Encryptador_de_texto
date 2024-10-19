@@ -36,7 +36,7 @@ function copy() {
 /** Base para la codificacion */
 /*____________________________________________________________________________________________________________*/
 const TextoUsuario = document.querySelector('.Texto_usuario');
-const AreaDeEncriptado = document.querySelector('.zona_encriptacion');
+const AreaDeEncriptado = document.querySelector('.texto_encriptado');
 const BaseEncriptacion = [
     ['e','ever'],['i','iris'],['a','beta'],['o','ofat'],['u','iu']
 ];
